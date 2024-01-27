@@ -50,10 +50,6 @@ int main() {
 }
 ```
 ## Documentation
-The listModels function fetches and returns a list of available TTS models.
-The listVoices function fetches and returns a list of available TTS voices.
-getDefaultVoiceSettings returns the default voice settings.
-getVoiceSettings retrieves settings for a specific voice using its ID.
 For detailed API usage and available methods, refer to the ElevenLabsTTS.h header file.
 
 ## Contributing
