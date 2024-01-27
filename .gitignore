@@ -1,0 +1,34 @@
+# Ignore build
+Debug/
+out/
+x64/
+
+# Ignore generated files by CMake
+CMakeFiles/
+CMakeCache.txt
+CMakePresets.json
+cmake_install.cmake
+
+# Ignore Visual Studio files
+*.user
+*.vcxproj.filters
+ZERO_CHECK.vcxproj
+ALL_BUILD.vcxproj
+.vs/
+
+# Ignore vcpkg package management files
+vcpkg-configuration.json
+vcpkg-manifest-install.log
+vcpkg_installed/
+
+# Ignore generated output files
+output.mp3
+
+# Ignore temporary or generated directories
+ElevenLabsTTS.dir/
+
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakePresets.json
+cmake_install.cmake

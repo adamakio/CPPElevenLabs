@@ -1,0 +1,8 @@
+{
+  "dependencies": [
+    "curl",
+    "nlohmann-json",
+    "portaudio",
+    "mp3lame"
+  ]
+}
