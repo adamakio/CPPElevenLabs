@@ -69,14 +69,14 @@ Json editVoiceSettings(const std::string& voice_id, const VoiceSettings& voice_s
 
 int main()
 {
-	auto& ElevenLabs = elevenlabs::start("8803fd5e6c3e42584bcd4fb5457b2617");
+	auto& ElevenLabs = elevenlabs::start("your_api_key_here");
 
 	std::cout << "Starting...\n";
 
 	StreamResponse* response = new StreamResponse();
 
 	std::string long_text = "Why is there still static I defined all the flags now";
-	elevenlabs::text_to_speech().stream(long_text, "kxzieYAgIjA72iaxsrzx", "eleven_turbo_v2", response);
+	elevenlabs::text_to_speech().stream(long_text, "your_voice_id_here", "eleven_turbo_v2", response);
 	closeStream();
 	std::cout << "Press Enter to close stream...";
 	std::cin.get();
